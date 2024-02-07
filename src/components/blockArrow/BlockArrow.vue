@@ -14,22 +14,22 @@ defineProps<{
   <div class="blockWithArrows">
     <ArrowUi
         classname="arrowToRight arrowCenter arrowButton"
-        url="src/assets/png/1.png"
+        url="public/1.png"
         @click="fnL2R"
     />
     <ArrowUi
         classname="arrowToLeft arrowCenter arrowButton"
-        url="src/assets/png/1.png"
+        url="public/1.png"
         @click="fnR2L"
     />
     <ArrowUi
         classname="doubleArrowToRight arrowCenter arrowButton"
-        url="src/assets/png/2.png"
+        url="public/2.png"
         @click="fnAll2L"
     />
     <ArrowUi
         classname="doubleArrowToLeft arrowCenter arrowButton"
-        url="src/assets/png/2.png"
+        url="public/2.png"
         @click="fnAll2R"
     />
   </div>
