@@ -7,6 +7,6 @@ defineProps<{
 
 <template>
   <div :class=classname>
-    <img :src=src alt="arrow">
+    <img :src=src alt="arrow" >
   </div>
 </template>
