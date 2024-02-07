@@ -7,28 +7,29 @@ defineProps<{
   fnAll2R: () => void
   fnAll2L: () => void
 }>()
+
 </script>
 
 <template>
   <div class="blockWithArrows">
     <ArrowUi
         classname="arrowToRight arrowCenter arrowButton"
-        src="../../public/png/1.png"
+        url="src/assets/png/1.png"
         @click="fnL2R"
     />
     <ArrowUi
         classname="arrowToLeft arrowCenter arrowButton"
-        src="../../public/png/1.png"
+        url="src/assets/png/1.png"
         @click="fnR2L"
     />
     <ArrowUi
         classname="doubleArrowToRight arrowCenter arrowButton"
-        src="../../public/png/2.png"
+        url="src/assets/png/2.png"
         @click="fnAll2L"
     />
     <ArrowUi
         classname="doubleArrowToLeft arrowCenter arrowButton"
-        src="../../public/png/2.png"
+        url="src/assets/png/2.png"
         @click="fnAll2R"
     />
   </div>

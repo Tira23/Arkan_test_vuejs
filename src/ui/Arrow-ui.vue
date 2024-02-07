@@ -1,12 +1,12 @@
 <script setup lang="ts">
 defineProps<{
-  src: string
+  url: string
   classname:string
 }>()
 </script>
 
 <template>
   <div :class=classname>
-    <img :src=src alt="arrow" >
+    <img :src="url" alt="arrow" >
   </div>
 </template>
