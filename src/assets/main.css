@@ -109,16 +109,19 @@ body {
     -moz-box-shadow: none;
     box-shadow: none;
   }
+
 }
 @media screen and (max-width: 993px) {
   body {
-    font-size: 26px;
+    font-size: 1em;
     align-items: start;
   }
-
+  #app{
+    width: 100%;
+  }
   .wrapper {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 5% 1fr;
+    grid-template-rows: 1fr 10% 1fr;
     gap: 20px;
   }
   .blockWithArrows{
@@ -145,4 +148,22 @@ body {
   }
 }
 
+@media screen and (max-width: 450px){
+  .wrapper {
+    grid-template-rows: 1fr 5% 1fr;
+    gap: 15px;
+  }
+  .blockWithArrows{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    gap: 10px;
+  }
+  .arrowButton{
+    height: 50px;
+    width: 50px;
+
+  }
+}
 /*# sourceMappingURL=style.css.map */
